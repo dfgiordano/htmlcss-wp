@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+.opacity {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 2%;
+}
 /* body */
 body {
     margin: 10px 100px 10px 100px;
@@ -12,12 +16,14 @@ body > header {
     margin-bottom: 15px;
 }
 .logo {
-    
     padding-right: 30px;
     border-right: 1px solid #A1A1A1;
 }
 .first-box {
     margin-bottom: 15px;
+}
+ul {
+    padding-bottom: 20px;
 }
 li {
     display: inline-block;
@@ -28,6 +34,20 @@ li {
 a {
     text-decoration: none;
     color: #A1A1A1;
+}
+.banner {
+    background-image: url("../img/banner.jpg");
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+}
+.prima-immagine {
+    height: 900px;
+}
+.testo{
+    padding-top: 700px;
+    color: white;
 }
 .contenitore {
     height: 500px;
